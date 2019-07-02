@@ -37,10 +37,10 @@ for (var i = 3 ; i < process.argv.length; i++){
             console.log("Enter a valid search")
             break;
     }
+    //search for concert
     function concertThis(){
         if(!term){
-            term=" ";
-            
+            term=" ";       
     }
     axios.get("https://rest.bandsintown.com/artists/" + term + "/events?app_id=codingbootcamp")
     .then(function(response) {
@@ -91,7 +91,7 @@ for (var i = 3 ; i < process.argv.length; i++){
         });
      };
      
-     //This function
+     //This function executes the spotifyThis function
      function doThis () {
         fs.readFile("random.txt", "utf8", function(err, data) {
             if (err) {
