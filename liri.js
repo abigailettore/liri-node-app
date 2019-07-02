@@ -40,7 +40,7 @@ for (var i = 3 ; i < process.argv.length; i++){
     //search for concert
     function concertThis(){
         if(!term){
-            term=" ";       
+            term="";       
     }
     axios.get("https://rest.bandsintown.com/artists/" + term + "/events?app_id=codingbootcamp")
     .then(function(response) {
