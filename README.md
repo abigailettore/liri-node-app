@@ -12,11 +12,11 @@ Moment
 DotEnv
 
 <h3>App Organization</h3>
-*Takes in the following commands:
-    * concert-this
-    * spotify-this-song
-    * movie-this
-    * do-what-it-says
+<p>Takes in the following commands:</p>
+    <p> concert-this</p>
+    <p> spotify-this-song</p>
+    <p> movie-this </p>
+    <p> do-what-it-says </p>
 
 
 
