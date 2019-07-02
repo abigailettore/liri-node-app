@@ -13,10 +13,10 @@ DotEnv
 
 <h3>App Organization</h3>
 *Takes in the following commands:
-    *concert-this
-    *spotify-this-song
-    *movie-this
-    *do-what-it-says
+    * concert-this
+    * spotify-this-song
+    * movie-this
+    * do-what-it-says
 
 
 
